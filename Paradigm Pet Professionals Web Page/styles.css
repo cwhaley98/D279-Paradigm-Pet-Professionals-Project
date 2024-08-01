@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #003b6d;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    left: 43%;
+    position: relative;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    background-color: #002d55;
+}
+
+.active {
+    background-color: #69c;
+}
+
+.request-link {
+    margin: 5px;
+    background-color: #69c;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #003b6d;
+    border-radius: 15px;
+    display: inline-block;
+    width: 174px;
+}
+
+.logo {
+    padding: 5px;
+    margin: 5px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 5%;
+}
+
+.search input {
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    outline: 0;
+    padding: 8px;
+}
+
+.landing {
+    padding: 15px;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 1440px;
+    height: 400px;
+    position: relative;
+    left: 10%;
+    top: 20px;
+    border-radius: 15px;
+}
+
+.landing h2 {
+    text-align: center;
+}
+
+.mission-container {
+    padding: 15px;
+    height: 350px;
+    width: fit-content;
+}
+
+.mission-container h3, .mission-container p {
+    width: 45%;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    top: 5px;
+    left: 8%;
+}
+
+.landing-photo {
+    position: relative;
+    left: 58%;
+    top: -270px;
+}
+
+.landing-animal-showcase, .about-us-images {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.animal-pics-container img, .about-us-images img {
+    margin: 4rem 6.5rem;
+}
+
+.landing-info-container {
+    padding: 15px;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 1440px;
+    height: 400px;
+    position: relative;
+    left: 11.5%;
+    border-radius: 15px;
+}
+
+.additional-info-container {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.org-list, .care-list {
+    list-style-type: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.about-us-landing {
+    padding: 15px;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 1200px;
+    height: 200px;
+    position: relative;
+    left: 17%;
+    top: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.about-us-landing h2, .about-us-landing, .about-us-landing p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    padding: 15px;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 800px;
+    height: 195px;
+    position: relative;
+    left: 28%;
+    border-radius: 15px;
+    text-align: center;
+    top: -20px;
+}
+
+.contact-info h3, .contact-info p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fish-landing {
+    padding: 25px;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 975px;
+    height: 155px;
+    position: relative;
+    left: 28%;
+    border-radius: 15px;
+    text-align: center;
+    top: 20px;
+}
+
+.more-info-landing {
+    padding: 15px;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 750px;
+    height: 180px;
+    position: relative;
+    left: 30%;
+    border-radius: 15px;
+    text-align: center;
+    top: -20px;
+}
+
+.freshwater-landing, .saltwater-landing, .newborn-landing {
+    margin: 3rem;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 1500px;
+    height: 510px;
+    position: relative;
+    left: 8.5%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.freshwater-landing img, .saltwater-landing img {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.freshwater-landing h3, .saltwater-landing h3, .newborn-landing h3, .one-year-landing h3, .seven-years-landing h3, .four-weeks-landing h3, .diet-exercise-landing h3, .grooming-handling-landing h3, .vaccinations-medications-landing h3 {
+    margin: 10px;
+}
+
+.newborn-landing img, .one-year-landing img, .four-weeks-landing img, .seven-years-landing img, .diet-exercise-landing img, .grooming-handling-landing img, .vaccinations-medications-landing img {
+    margin: 1.5rem 4rem;
+}
+
+.diet-exercise-landing p, .grooming-handling-landing p, .vaccinations-medications-landing p {
+    margin: 15px;
+}
+
+.cat-landing {
+    padding: 25px;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 975px;
+    height: 155px;
+    position: relative;
+    left: 25%;
+    border-radius: 15px;
+    text-align: center;
+    top: 20px;
+}
+
+.request-landing {
+    padding: 25px;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 650px;
+    height: 100px;
+    position: relative;
+    left: 33.5%;
+    border-radius: 15px;
+    text-align: center;
+    top: -20px;
+}
+
+.one-year-landing, .seven-years-landing {
+    margin: 3rem;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 1500px;
+    height: 415px;
+    position: relative;
+    left: 8.5%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.four-weeks-landing {
+    margin: 3rem;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 1500px;
+    height: 440px;
+    position: relative;
+    left: 8.5%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.dog-landing {
+    padding: 25px;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 975px;
+    height: 200px;
+    position: relative;
+    left: 25%;
+    border-radius: 15px;
+    text-align: center;
+    top: 20px;
+}
+
+.diet-exercise-landing {
+    margin: 3rem;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 1500px;
+    height: 575px;
+    position: relative;
+    left: 7%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.grooming-handling-landing {
+    margin: 3rem;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 1500px;
+    height: 485px;
+    position: relative;
+    left: 7%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.vaccinations-medications-landing {
+    margin: 3rem;
+    background-color: #bdbdbd;
+    border: 2px solid #676767;
+    width: 1500px;
+    height: 440px;
+    position: relative;
+    left: 7%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.consultation-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #676767;
+    border-radius: 20px;
+    background-color: #bdbdbd;
+    font-size: 12px;
+    width: 390px;
+    min-height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    left: 40%;
+    position: relative;
+}
+
+.request-form-button {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.form-inputs {
+    margin: 20px;
+}
+
+.form-inputs input {
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    padding: 4px;
+    width: 225px;
+}
+
+.consultation-form p {
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #003b6d;
+    height: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+footer span {
+    margin-left: 5px;
+}
